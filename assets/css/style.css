@@ -406,7 +406,7 @@ h6 {
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/nevidec--banner1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -990,7 +990,7 @@ section {
 }
 
 .counts .image {
-  background: url("../img/counts-img.jpg") center center no-repeat;
+  background: url("../img/counts-img1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }

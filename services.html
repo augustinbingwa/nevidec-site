@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NEVIDEC - A propos</title>
+  <title>NEVIDEC - SERVICES</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon2.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -43,14 +43,22 @@
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">NEVIDEC</a></h1>
+      <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">NEVIDEC</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo2.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="apropos.html">A propos</a></li>
+          <li class="dropdown"><a href="services.html"><span>Nos activités</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="vente-produit.html">Ventes</a></li>
+              <!-- <li><a href="construiction.html">Logicielles</a></li>
+              <li><a href="consultance.html">Constructions</a></li>
+              <li><a href="fourniture.html">Fournitures</a></li>
+              <li><a href="maintenance.html">Maintenances</a></li> -->
+            </ul>
+          </li>
           <li class="dropdown"><a href="services.html" class="active"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="developpement.html">Developpement</a></li>
@@ -62,6 +70,17 @@
               <li><a href="formation.html">Formation</a></li>
             </ul>
           </li>
+          <li class="dropdown"><a href=""><span>Domaine</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="informatique.html">Informatique</a></li>
+              <li><a href="construictions.html">Construction</a></li>
+              <li><a href="mecanique.html">Mecanique</a></li>
+              <li><a href="managment.html">Managment</a></li>
+              <li><a href="centre.html">Centre d'Incubation</a></li>
+              <li><a href="art.html">ART et Design</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="apropos.html">A propos</a></li>
           <li><a class="nav-link scrollto" href="portfolio-details.html">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="testimonials.html">Témoignages</a></li>
           <li><a class="nav-link scrollto" href="images.html">Images</a></li>
@@ -95,19 +114,24 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
-<!--        <div class="section-title">-->
-<!--          <h2>Services</h2>-->
-<!--          <p>Nos Services</p>-->
-<!--        </div>-->
-        <div class="row">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Nos Services</p>
+        </div>
+
+        <div class="row justify-content-center">
           <!-- start developpement-->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="developement.html">Développement de Logiciels et de Sites Web</a></h4>
-              <p class="text-start">nous sommes passionnés par les technologies de pointe et nous nous efforçons de fournir des solutions informatiques de qualité supérieure à nos clients.
+              <div class="icon"><i class="bi bi-boxes"></i></div>
+              <h4><a href="developpement.html">Développement de Logiciels et de Sites Web</a></h4>
+              <p class="text-start mb-2">
+                Notre équipe spécialisée dans le développement de logiciels et de sites web est là pour concrétiser vos idées et vos projets numériques. 
+                Que vous ayez besoin d'une application sur mesure, d'un site web dynamique ou d'une solution logicielle innovante, 
+                nous avons l'expertise nécessaire pour répondre à vos besoins.
               </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="developement.html">Voir detail</a>
+              <a class="btn btn-sm" style="background-color:#ffc451" href="developpement.html">Voir detail</a>
             </div>
           </div>
           <!-- end developpement-->
@@ -115,12 +139,13 @@
           <!-- start Maintenances-->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="services/maintenance.html">Maintenances</a></h4>
-              <p>
-                Nous comprenons que chaque projet de construction est unique et mérite une approche personnalisée.
+              <div class="icon"><i class="bi bi-briefcase-fill"></i></div>
+              <h4><a href="maintenance.html">Maintenances</a></h4>
+              <p class="text-start mb-2">
+                Le service de maintenance dédié à assurer la stabilité et la performance de vos logiciels, réseaux et équipements matériels. 
+                Nous comprenons l'importance critique de maintenir vos systèmes opérationnels et nous nous engageons à vous fournir un soutien fiable et réactif dans ce domaine crucial.
               </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/maintenance.html">Voir detail</a>
+              <a class="btn btn-sm" style="background-color:#ffc451" href="maintenance.html">Voir detail</a>
             </div>
           </div>
           <!-- end Maintenances-->
@@ -128,10 +153,11 @@
           <!-- start Formations-->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
               <h4><a href="formation.html">Formations</a></h4>
-              <p>
-                Notre équipe de gestion chevronnée possède une vaste expérience dans divers secteurs d'activité.
+              <p class="text-start mb-2">
+                La formation polyvalent, offrant une expertise pointue dans une variété de domaines pour vous aider à développer vos compétences et à atteindre vos objectifs professionnels. 
+                Nous croyons en l'importance de l'apprentissage continu et nous sommes déterminés à vous fournir des programmes de formation de qualité adaptés à vos besoins.
               </p>
               <a class="btn btn-sm" style="background-color:#ffc451" href="formation.html">Voir detail</a>
             </div>
@@ -141,12 +167,13 @@
           <!-- start vente-->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="services/vente.html">Vente de Matériel Informatique et Bureautique</a></h4>
-              <p>
-                Notre équipe de consultants chevronnés possède une expertise approfondie dans divers domaines d'activité.
+              <div class="icon"><i class="bi bi-cart"></i></i></div>
+              <h4><a href="vente.html">Vente de Matériel Informatique et Bureautique</a></h4>
+              <p class="text-start mb-2">
+                Notre service de vente spécialisé en matériel informatique et bureautique. 
+                Nous proposons une large gamme de produits de qualité pour répondre à vos besoins en équipements technologiques pour le bureau et la maison.
               </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/vente.html">Voir detail</a>
+              <a class="btn btn-sm" style="background-color:#ffc451" href="vente.html">Voir detail</a>
             </div>
           </div>
           <!-- end vente-->
@@ -154,13 +181,13 @@
           <!-- start Fourniture-->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="services/fourniture.html">Fourniture d'Équipement Informatique, Bureautique et Autre</a></h4>
-              <p>
-                Les artistes sont des visionnaires et des innovateurs. Ils explorent de nouvelles formes,
-                de nouvelles techniques et de nouvelles idées, repoussant constamment les limites de la créativité.
+              <div class="icon"><i class="bi bi-clipboard2-data"></i></div>
+              <h4><a href="fourniture.html">Fourniture d'Équipement Informatique, Bureautique et Autre</a></h4>
+              <p class="text-start mb-2">
+                La fourniture d'équipement informatique, bureautique et autres solutions professionnelles. 
+                Nous nous engageons à fournir des produits de qualité pour répondre à vos besoins en matière d'équipement technologique et de bureau.
               </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/fourniture.html">Voir detail</a>
+              <a class="btn btn-sm" style="background-color:#ffc451" href="fourniture.html">Voir detail</a>
             </div>
           </div>
           <!-- end Fourniture-->
@@ -168,13 +195,13 @@
           <!-- start Consultance -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="services/consultance.html">Consultance en Informatique et Construction</a></h4>
-              <p>
-                Les artistes sont des visionnaires et des innovateurs. Ils explorent de nouvelles formes,
-                de nouvelles techniques et de nouvelles idées, repoussant constamment les limites de la créativité.
+              <div class="icon"><i class="bi bi-ear"></i></div>
+              <h4><a href="consultance.html">Consultance en Informatique et Construction</a></h4>
+              <p class="text-start mb-2">
+                Dans notre service de consultance offrant une expertise combinée en informatique et en construction.
+                Nous proposons des solutions personnalisées pour répondre à vos besoins complexes dans ces deux domaines cruciaux.
               </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/consultance.html">Voir detail</a>
+              <a class="btn btn-sm" style="background-color:#ffc451" href="consultance.html">Voir detail</a>
             </div>
           </div>
           <!-- end Consultance -->
@@ -182,45 +209,18 @@
           <!-- start Construction -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Construction et Mécanique</a></h4>
-              <p>
-                Les artistes sont des visionnaires et des innovateurs. Ils explorent de nouvelles formes,
-                de nouvelles techniques et de nouvelles idées, repoussant constamment les limites de la créativité.
+              <div class="icon"><i class="bi bi-palette"></i></div>
+              <h4><a href="construiction.html">Construction et Mécanique</a></h4>
+              <p class="text-start mb-2">
+                Dans notre service intégré de construction et mécanique, offrant une expertise complète pour répondre à vos besoins en matière de projets de construction et de services mécaniques. 
+                Nous combinons notre savoir-faire dans ces deux domaines pour fournir des solutions efficaces et de haute qualité.
               </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/construiction.html">Voir detail</a>
+              <a class="btn btn-sm" style="background-color:#ffc451" href="construiction.html">Voir detail</a>
             </div>
           </div>
           <!-- end Construction -->
-
-          <!-- start  art -->
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Art et Design</a></h4>
-              <p>
-                Les artistes sont des visionnaires et des innovateurs. Ils explorent de nouvelles formes,
-                de nouvelles techniques et de nouvelles idées, repoussant constamment les limites de la créativité.
-              </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/art.html">Voir detail</a>
-            </div>
-          </div>
-          <!-- end art -->
-
-          <!-- start incubation -->
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-2" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Centre d'Incubation</a></h4>
-              <p>
-                Les artistes sont des visionnaires et des innovateurs. Ils explorent de nouvelles formes,
-                de nouvelles techniques et de nouvelles idées, repoussant constamment les limites de la créativité.
-              </p>
-              <a class="btn btn-sm" style="background-color:#ffc451" href="services/vente.html">Voir detail</a>
-            </div>
-          </div>
-          <!-- end incubation -->
         </div>
+
       </div>
     </section>
     <!-- End Services Section -->
@@ -258,12 +258,13 @@
               <li><i class="bx bx-chevron-right"></i> <a href="informatique.html">Informatiques</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="construictions.html">Construictions</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="mecanique.html">Mecanique</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="managment.html">Managment</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="centre.html">Centre d'incubation</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="art.html">Art et Design</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-2 col-md-6 footer-links">
             <h4>Nos Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="developpement.html">developpement</a></li>
@@ -276,14 +277,23 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Newsletter</h4>
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Nos Activites</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="developpement.html">Ventes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="construiction.html">Logicielles</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="consultance.html">Constructions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="fourniture.html">Fourniture</a></li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter"> -->
+            <!-- <h4>Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="S'enregistrer">
-            </form>
-
-          </div>
+            </form> -->
+          <!-- </div> -->
 
         </div>
       </div>
